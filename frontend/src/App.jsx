@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <div style={{ fontFamily: 'sans-serif', padding: '2rem', textAlign: 'center' }}>
-      <h1>⚡ Dummy MERN Frontend</h1>
+      <h1>⚡ Dummy MERN Frontend Vansh Here</h1>
       <p>Backend API Status: <strong>{status}</strong></p>
     </div>
   );

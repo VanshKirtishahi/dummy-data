@@ -13,7 +13,7 @@ RUN if [ -f package-lock.json ]; then npm ci --omit=dev; else npm install --omit
 FROM base AS runner
 WORKDIR /app
 ENV NODE_ENV=production
-ENV PORT=3001
+ENV PORT=10000
 
 COPY --from=dependencies /app/node_modules ./node_modules
 COPY . .
@@ -21,9 +21,9 @@ COPY . .
 # Security: run as non-root node user
 USER node
 
-EXPOSE 3001
+EXPOSE 10000
 
-HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:3001/api/health || exit 1
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+  CMD curl -f http://localhost:10000/api/health || exit 1
 
 CMD ["npm", "start"]

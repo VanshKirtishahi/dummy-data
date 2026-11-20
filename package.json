@@ -1,0 +1,9 @@
+{
+  "name": "dummy-data-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run --prefix frontend build",
+    "start": "npm run --prefix backend start"
+  }
+}
