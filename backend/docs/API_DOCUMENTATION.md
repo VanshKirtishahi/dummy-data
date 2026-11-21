@@ -2,7 +2,7 @@
 > Automatically generated and maintained by **DevAgents Documentation Agent**
 
 **Project Target:** `C:\Users\Vansh\Downloads\DevAgents\dummy_apps\mern-app\backend`  
-**Generated At:** `2026-11-20T13:39:03.237Z`  
+**Generated At:** `2026-11-21T06:05:08.259Z`  
 **API Specification:** [OpenAPI 3.0 (JSON)](file:///C:/Users/Vansh/Downloads/DevAgents/dummy_apps/mern-app/backend/docs/openapi.json)
 
 ---

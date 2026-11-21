@@ -1,5 +1,5 @@
 # 🚀 DUMMY-MERN-BACKEND
-> dummy-mern-backend is a MERN stack backend project that includes CORS, dotenv, express, and mongoose dependencies, and provides endpoints for a root endpoint, a health check endpoint, and a users endpoint.
+> The dummy-mern-backend project provides essential endpoints including a root endpoint, a health check endpoint, and a users endpoint, utilizing CORS, dotenv, Express, and Mongoose for its backend functionalities.
 >
 > *Maintained and verified by DevAgents Documentation Agent.*
 
